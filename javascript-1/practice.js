@@ -234,6 +234,6 @@ const enemies = people.filter((item) => {
 //Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
-const newArray = people.reduce((prev, curr) => {
-	return prev.awesomeLevel += curr.awesomeLevel
-})
+const totallyAwesome = people.reduce((acc, curr) => {
+	return acc += curr.awesomeLevel
+}, 0)
