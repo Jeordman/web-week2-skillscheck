@@ -9,9 +9,13 @@
   align-items: center;
 }
 
+.body {
+  margin: 0px;
+}
 .company {
   margin-left: 5%;
   font-size: 50px;
+  font-family: "Permanent Marker", cursive;
 }
 
 .links {
@@ -22,10 +26,11 @@
   align-items: center;
   justify-content: space-between;
   font-size: 25px;
+  font-family: "Permanent Marker", cursive;
 }
 
 .black-section {
-    font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   display: flex;
   color: yellow;
   font-weight: 900;
@@ -79,53 +84,78 @@
   height: 35vh;
 }
 
-.left-box{
-width: 44%;
-height: 30vh;
-background: rgb(236, 184, 87);
-margin-top: 3%;
-margin-left: 4%;
+.left-box {
+  width: 44%;
+  height: 30vh;
+  background: rgb(236, 184, 87);
+  margin-top: 3%;
+  margin-left: 4%;
 }
 
-.right-box{
-    width: 42%;
-    height: 30vh;
-    background: rgb(236, 184, 87);
-    margin-top: 3%;
-    margin-left: 5%;  
-font-family: 'Pacifico', cursive;
-font-family: 'Pacifico', cursive;
+.right-box {
+  width: 42%;
+  height: 30vh;
+  background: rgb(236, 184, 87);
+  margin-top: 3%;
+  margin-left: 5%;
+  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive;
 }
 
-.aside{
-    display: flex;
-    width: 100%;
-    height: 25vh;
+.aside {
+  display: flex;
+  width: 100%;
+  height: 30vh;
 }
 
-.text{
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    margin-left: 13%;
-    margin-top: 1.5%;
+.text {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin-left: 13%;
+  margin-top: 2.5%;
 }
 
-.bottom-pic{
-    
-        height: 20vh;
-        display: flex;
-        position: absolute;
-        width: 20%;
-        margin-left: 63%;
-        margin-top: 22.5px;
-        display: flex;
-        flex-direction: column-reverse;
-        background-size: cover;
-        background-image: url("./elph.jpeg");
+.josh {
+  height: 18vh;
+  display: flex;
+  position: absolute;
+  width: 10%;
+  margin-left: 71%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  background-image: url("./mccann.jpeg");
 }
 
-.footer{
-    width: 100%;
-    height: 10vh;
-    background: rgb(79, 79, 100)
+.bryan {
+  height: 18vh;
+  display: flex;
+  position: absolute;
+  width: 10%;
+  margin-left: 82%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  background-image: url("./bryan.jpeg");
+}
+
+.matias {
+  height: 18vh;
+  display: flex;
+  position: absolute;
+  width: 10%;
+  margin-left: 60%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+  background-image: url("./mat.jpeg");
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background: rgb(79, 79, 100);
 }
